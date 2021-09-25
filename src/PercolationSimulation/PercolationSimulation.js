@@ -92,7 +92,7 @@ const PercolationSimulation = () => {
     }, [open])
 
     const onInputRandomCellAm = useCallback((event) => {
-        setRandomCellAm(event.target.value)
+        setRandomCellAm(parseInt(event.target.value, 10))
     }, [])
 
     const reset = useCallback(() => {
