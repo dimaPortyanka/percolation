@@ -6,7 +6,10 @@ import './App.css'
 
 function App() {
     return (
-        <PercolationSimulation />
+        <div>
+            <a href="https://github.com/dimaPortyanka/percolation">github repo</a>
+            <PercolationSimulation />
+        </div>
     )
 }
 
