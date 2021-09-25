@@ -1,0 +1,38 @@
+.grid {
+  border-spacing: 0;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: silver;
+  display: inline-block;
+}
+
+.openCell {
+  background-color: white;
+}
+
+.percolates {
+  background-color: skyblue;
+}
+
+.cellButton {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding:0;
+  margin: 0;
+  border: 0px;
+  overflow: hidden;
+}
